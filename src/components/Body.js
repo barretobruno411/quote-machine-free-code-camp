@@ -16,9 +16,12 @@ const Body = () => {
 
   return (
     <main>
-      <h1>Quotes</h1>
 
-      <Card quote={data.content} newQuote={newQuote}/>
+      <Card
+        quote={data.content}
+        newQuote={newQuote}
+        author={data.author}
+        />
 
     </main>
   );

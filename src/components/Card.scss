@@ -1,0 +1,50 @@
+$border-radius-value: 15px;
+$primary-color: rgb(237, 188, 188);
+$secondary-color: rgb(153, 10, 205);
+
+#quote-box{
+    padding: 80px;
+    background-color: $primary-color;
+    border-radius: $border-radius-value;
+
+    h1{
+        font-weight: 700;
+        color: $secondary-color;
+    }
+
+    p{
+        font-weight: 400;
+        color: $secondary-color;
+    }
+
+    button{
+        font-weight: 700;
+        font-size: 18px;
+        color: $primary-color;
+
+        img{
+            width: 20px;
+        }
+    }
+
+    button:hover{
+        color: $secondary-color;
+    }
+}
+
+.btn{
+    padding: 20px;
+    border: none;
+    margin:10px;
+    cursor: pointer;
+    border-radius: $border-radius-value;
+    transition: 0.2s;
+    background-color: $secondary-color;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    border: 3px solid $secondary-color;
+    background-color: $primary-color;
+    
+}

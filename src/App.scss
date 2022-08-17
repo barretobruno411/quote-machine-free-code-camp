@@ -1,0 +1,14 @@
+$primary-color: rgb(153, 10, 205);
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: $primary-color;
+}

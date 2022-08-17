@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import BodyQuote from './components/Body';
 
 function App() {
